@@ -14,4 +14,10 @@ export class UserProfileService {
     console.log("service is now ready");
     this.userName = 'jerushaotieno';
   }
+
+  getUserProfileInformation(){
+    return this.http.get("https://api.github.com/users/"  + this.userName + "?accessToken=" + this.accessToken);
+  
+    .map(result => result.json());
+  }
 }
