@@ -7,5 +7,11 @@ import 'rxjs/add/operator/map';
 })
 export class UserProfileService {
 
-  constructor() { }
+  private userName:string;
+  private accessToken = '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';
+
+  constructor(private http:Http) { 
+    console.log("service is now ready");
+    this.userName = 'jerushaotieno';
+  }
 }
