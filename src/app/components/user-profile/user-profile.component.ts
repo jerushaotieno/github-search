@@ -9,7 +9,7 @@ import { UserProfileService  } from '../../services/user-profile.service';
 export class UserProfileComponent implements OnInit {
 
   constructor(private UserProfileService: UserProfileService) { 
-    this.UserProfileService.getUserProfileInformation().subscribe(userProfile => {
+    this.UserProfileService.getUserProfileInformation().subscribe((userProfile: any) => {
       console.log(userProfile);
     });
   }
