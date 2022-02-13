@@ -1,23 +1,22 @@
 import { Injectable } from '@angular/core';
-import { Http,Headers } from '@angular/http';
+import { HttpClient } from '@angular/common/http';
 import 'rxjs/add/operator/map';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class UserProfileService {
 
   private userName:string;
-  private accessToken = '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';
+  private accessToken = '';
 
-  constructor(private http:Http) { 
-    console.log("service is now ready");
-    this.userName = 'jerushaotieno';
+  constructor(private http:HttpClient) { 
+  	console.log("this service is ready!");
+  	this.userName = 'jerushaotieno';
   }
 
   getUserProfileInformation(){
-    return this.http.get("https://api.github.com/users/"  + this.userName + "?accessToken=" + this.accessToken);
-  
-    .map(result => result.json());
+  	return this.http.get("https://api.github.com/users/" + this.userName + "?access_token=" + this.accessToken)
+  	.map(result => result.json());
   }
+
+
 }
