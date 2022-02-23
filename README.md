@@ -1,6 +1,38 @@
-# GithubSearch
+# Author
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
+Jerusha Otieno
+
+LinkedIn - Jerusha Otieno
+
+# Quotes Description
+
+This is an application where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories It is generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
+
+# Live Link
+
+https://jerushaotieno.github.io/quotes/
+
+# Setup/Installation Requirements
+
+* Install the latest stable version of Node.js
+* Install the Angular CLI using the command npm install -g @angular/cli
+* Clone this repository from the url, https://github.com/jerushaotieno/quotes.git, git clone https://github.com/jerushaotieno/quotes.git
+* Change your directory to the one resulting from cloning the repository
+* Run npm install
+* Run ng serve --open to run the application on your browser
+
+# Technologies Used
+
+* Typescript
+* Angular
+* JavaScript
+* Bootstrap
+* CSS
+
+# Support and Contact Details
+
+Email: jerushaotienocoding@gmail.com
+
 
 ## Development server
 
@@ -25,3 +57,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Copyright (c) [2022] Jerusha Otieno
