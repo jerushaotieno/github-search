@@ -6,11 +6,11 @@ LinkedIn - Jerusha Otieno
 
 # Quotes Description
 
-This is an application where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories It is generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
+This is an application where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories. It is generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
 # Live Link
 
-https://jerushaotieno.github.io/quotes/
+https://jerushaotieno.github.io/github-search/
 
 # Setup/Installation Requirements
 
